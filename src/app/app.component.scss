@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.certificates {
+	padding: 30px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	&__row {
+		max-width: 400px;
+		max-height: 350px;
+		width: 100%;
+		height: 100%;
+	}
+
+	&__list {
+		margin: 0px 0px 50px 0px;
+	}
+
+	&__btn {
+		width: 130px;
+		height: 40px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #fff;
+		background-color: rgb(144, 140, 140);
+		border-radius: 5%;
+	}
+}
+
+.button {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	font-size: 16px;
+	letter-spacing: 0.7px;
+	font-weight: 600;
+}
+
+
+td {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.upload-icon {
+	margin: 45px 0px 0px 0px;
+	width: 100px;
+	font-weight: 200;
+}
